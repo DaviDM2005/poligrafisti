@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow-y: hidden;
+    height: auto;
+}
+
+
+
+.first-head{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+.registration-div{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+.change-lang{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+.lang-reg{
+    display: flex;
+    gap: 10px;
+}
+
+.sec-head{
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 20px;
+}
+
+.sec-head a li{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+/* main */
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+main article{
+    width: 48%;
+}
+
+.left-side{
+    height: 80vh;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-side .search-message{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+} 
+
+.left-side .search-message a{
+    padding: 10px;
+    border: 1px solid black;
+    width: 10em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.left-side .search-message .search{
+    height: 45px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.scroll-posts .title-div{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+
+.scroll-posts{
+    width: 100%;
+    height: 100%;
+    background-color: #E4E4E4;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+
+main .right-side{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+
+.posts-div{
+    height: 64vh;
+    width: 100%;
+    background-color: #E4E4E4;
+    overflow-y: scroll !important;
+    padding: 0 20px;
+}
+
+.posts-div .post{
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+
+.right-side .tv-div{
+    background-color: black;
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.right-side .contact-div{
+    background-color: grey;
+    width: 100%; 
+    height: 37%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color: blue;
+    height: 30px;
+    width: 100%;
+}
